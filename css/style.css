@@ -263,6 +263,12 @@ main .hero-section-content p {
 	padding-left: 8px;
 }
 
+main .hero-section-content .cta-button-group {
+	display: flex;
+	text-align: left;
+
+}
+
 main .hero-section-image {
 	/* display: flex;
 	justify-content: center;
