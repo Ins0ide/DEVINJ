@@ -266,7 +266,7 @@ main .hero-section-content p {
 main .hero-section-content .cta-button-group {
 	display: flex;
 	text-align: left;
-
+	margin-top: 15px;
 }
 
 main .hero-section-image {
