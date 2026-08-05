@@ -246,7 +246,7 @@ main .hero-section-content {
 
 main .hero-section-content span:not(.gradient-text) {
 	display: inline-block;
-	margin-bottom: 13px;
+	margin-bottom: 12px;
 	padding-left: 8px;
 	color: #fff;
 	font-size: 1.2rem;
@@ -312,6 +312,10 @@ main .hero-img-cover {
 }
 
 /* EASE-OF-ACCESS SECTION */
+.ease-of-access {
+	background: #fbf8d7a9;
+}
+
 .ease-of-access-content {
 	display: flex;
 	justify-content: space-between;
@@ -326,6 +330,25 @@ main .hero-img-cover {
 	height: auto
 
 }
+
+.ease-of-access-content .service-item {
+	background-color: #1919ba;
+	
+}
+
+.ease-of-access-content .service-item:first-child {
+	background-color: yellow;
+
+}
+
+.services-ease-of-access h2 {
+	color: #292524;
+}
+
+.destinations-ease-of-access h2 {
+	color: #292524;
+}
+
 
 /* IMAGE SECTION */
 .image-section {
