@@ -246,7 +246,7 @@ main .hero-section-content {
 
 main .hero-section-content span:not(.gradient-text) {
 	display: inline-block;
-	margin-bottom: 16px;
+	margin-bottom: 13px;
 	padding-left: 8px;
 	color: #fff;
 	font-size: 1.2rem;
@@ -311,7 +311,23 @@ main .hero-img-cover {
 	inset: 0%;
 }
 
-/* Image Section */
+/* EASE-OF-ACCESS SECTION */
+.ease-of-access-content {
+	display: flex;
+	justify-content: space-between;
+	width: 100%;
+	aspect-ratio: 16 / 9;
+	/* max-width: 1200px; */
+	padding: 5%;
+}
+
+.ease-of-access-item {
+	/* min-height: 500px; */
+	height: auto
+
+}
+
+/* IMAGE SECTION */
 .image-section {
 	/* padding: 50px 0; */
 	background-color: #fbf8d7a9;
