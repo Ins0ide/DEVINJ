@@ -324,6 +324,7 @@ main .hero-img-cover {
 	aspect-ratio: 16 / 9;
 	/* max-width: 1200px; */
 	padding: 5%;
+	gap: 25px;
 }
 
 .ease-of-access-item {
