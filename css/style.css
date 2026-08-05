@@ -330,6 +330,7 @@ main .hero-img-cover {
 .ease-of-access-item {
 	display: flex;
 	flex: 1;
+	vertical-align: top;
 	/* min-height: 500px; */
 	height: auto
 }
@@ -348,8 +349,11 @@ main .hero-img-cover {
 }
 
 .ease-of-access-item h2 {
+	font-family: 'Wix Madefor Display', sans-serif;
+	font-size: 3rem;
 	font-style: normal;
 	color: #fff;
+	line-height: 1.2em;
 }
 
 .destinations-ease-of-access h2 {
