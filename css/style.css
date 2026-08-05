@@ -325,14 +325,20 @@ main .hero-img-cover {
 	padding: 5%;
 }
 
+.ease-of-access-content > * {
+	flex: 1;
+}
+
 .ease-of-access-item {
 	/* min-height: 500px; */
 	height: auto
-
+	
 }
 
 .ease-of-access-content .service-item {
-	background-color: #1919ba;
+	background-color: #363189;
+	padding: 50px 40px;
+	min-height: 350px
 	
 }
 
@@ -341,12 +347,11 @@ main .hero-img-cover {
 
 }
 
-.services-ease-of-access h2 {
-	color: #292524;
+.ease-of-access-item h2 {
+	color: #fff;
 }
 
 .destinations-ease-of-access h2 {
-	color: #292524;
 }
 
 
