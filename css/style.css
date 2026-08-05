@@ -247,16 +247,17 @@ main .hero-section-content {
 main .hero-section-content span:not(.gradient-text) {
 	display: inline-block;
 	margin-bottom: 16px;
-	padding-left: 5px;
+	padding-left: 8px;
 	color: #fff;
-	font-size: small;
+	font-size: 1.2rem;
+	font-weight: 600;
 	text-align: left;
 	text-transform: uppercase;
-	border-left: 3px solid #D97E3A;
+	border-left: 3px solid #ffe2c3;
 }
 
 main .hero-section-content h1 {
-	/* color: #1919ba; */
+	color: #fff;
 	font-family: 'Wix Madefor Display', sans-serif;
 	text-align: left;
 	margin-bottom: 15px;
@@ -272,11 +273,11 @@ main .hero-section-content h2 {
 }
 
 main .hero-section-content p {
+	padding-left: 8px;
 	text-align: left;
 	color: beige;
 	line-height: 27px;
 	border-left: 3px solid #ffe2c3;
-	padding-left: 8px;
 }
 
 main .hero-section-content .cta-button-group {
@@ -1042,12 +1043,12 @@ footer.footer {
 	color: transparent;
 }
 
-.text-extend {
+/* .text-extend {
 	color: #fff;
 	font-size: small;
 	font-style: italic;
 	display: inline-block;
-}
+} */
 
 /* Smooth scrolling */
 html {
