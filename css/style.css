@@ -323,25 +323,24 @@ main .hero-img-cover {
 	width: 100%;
 	aspect-ratio: 16 / 9;
 	/* max-width: 1200px; */
-	padding: 5% 0;
+	padding: 5% 2%;
 	gap: 25px;
 }
 
 .ease-of-access-item {
 	display: flex;
-	align-items: stretch;
 	flex: 1;
 	/* min-height: 500px; */
 	height: auto
-	
 }
 
 .ease-of-access-content .service-item {
 	background-color: #363189;
 	padding: 50px 40px;
+	justify-content: space-evenly;
+	flex-direction: column;
 	border-radius: 10px;
 	min-height: 350px
-	
 }
 
 .ease-of-access-content .service-item:first-child {
