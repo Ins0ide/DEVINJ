@@ -360,6 +360,60 @@ main .hero-img-cover {
 	color: #fff;
 }
 
+/* Responsive adjustments for ease-of-access section */
+@media (max-width: 900px) {
+	.ease-of-access-content {
+		display: flex;
+		flex-direction: column;
+		gap: 18px;
+		aspect-ratio: unset;
+		padding: 4% 3%;
+	}
+
+	.ease-of-access-item {
+		width: 100%;
+		flex: none;
+		align-items: stretch;
+	}
+
+	.ease-of-access-content .service-item {
+		padding: 28px 20px;
+		min-height: unset;
+		border-radius: 10px;
+	}
+
+	.ease-of-access-item.image-ease-of-access {
+		display: block;
+	}
+
+	.ease-of-access-item.image-ease-of-access img {
+		width: 100%;
+		height: auto;
+		object-fit: cover;
+		border-radius: 10px;
+	}
+
+	.ease-of-access-item h2 {
+		font-size: 2rem;
+		color: var(--dark);
+	}
+}
+
+@media (max-width: 600px) {
+	.ease-of-access-content {
+		padding: 3% 2%;
+		gap: 12px;
+	}
+
+	.ease-of-access-item h2 {
+		font-size: 1.6rem;
+	}
+
+	main .hero-section {
+		padding: 40px 0 10px 0;
+	}
+}
+
 
 /* IMAGE SECTION */
 .image-section {
